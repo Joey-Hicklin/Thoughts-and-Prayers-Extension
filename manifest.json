@@ -1,0 +1,39 @@
+{
+	"manifest_version": 2,
+	"name": "Joey's Extension Test",
+	"version": "0.1",
+	// "default_locale": "en",
+	"description": "Describing my tests eloquently",
+	// "icons": {},
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html",
+		"default_title": "Do they really care?"
+	},
+	// "page_action": {},
+	// "background": {
+	// 	"persistent": false
+	// },
+	"commands": {
+		"do_something": {
+			"suggested_key": {
+				"default": "Ctrl+0",
+				"mac": "MacCtrl+0"
+			},
+			"description": "It does something"
+		}
+	},
+	"content_scripts": [
+		{
+			"matches": ["http://*/*", "https://*/*"],
+			"js": ["content.js"]
+		}
+	],
+	// "content_security_policy": "[]",
+	"homepage_url": "http://joeyhicklin.com",
+	"permissions": [
+		"activeTab",
+		"https://ajax.googleapis.com/"
+	],
+	"short_name": "JoeyTest"
+}

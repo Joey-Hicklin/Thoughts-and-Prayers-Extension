@@ -1,0 +1,9 @@
+--scrape paragraph data
+
+--sort into sentences or chunks for topics
+
+--Compress query and assign to unique identifier
+
+--Query database for existing entry
+
+--If duplicate exists, add URL to list

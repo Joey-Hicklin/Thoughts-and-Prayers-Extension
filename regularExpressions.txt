@@ -1,0 +1,2 @@
+TITLE ABBREVIATIONS
+(\s(?=[A-Z](?=[a-z]+(?=[.?!]))))
