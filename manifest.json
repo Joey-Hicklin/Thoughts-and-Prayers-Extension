@@ -26,7 +26,7 @@
 	"content_scripts": [
 		{
 			"matches": ["http://*/*", "https://*/*"],
-			"js": ["content.js"]
+			"js": ["jquery/jquery v3.1.1", "content.js"]
 		}
 	],
 	// "content_security_policy": "[]",
