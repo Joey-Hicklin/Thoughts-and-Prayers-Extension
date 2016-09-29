@@ -1,12 +1,12 @@
 {
 	"manifest_version": 2,
-	"name": "Joey's Extension Test",
+	"name": "Thoughts and Prayers",
 	"version": "0.1",
 	// "default_locale": "en",
-	"description": "Describing my tests eloquently",
+	"description": "Describing their thoughts more eloquently",
 	// "icons": {},
 	"browser_action": {
-		"default_icon": "icon.png",
+		"default_icon": "Thoughts_n_Prayers.png",
 		"default_popup": "popup.html",
 		"default_title": "Do they really care?"
 	},
@@ -35,5 +35,5 @@
 		"activeTab",
 		"https://ajax.googleapis.com/"
 	],
-	"short_name": "JoeyTest"
+	"short_name": "TP"
 }
